@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const { PassThrough } = require("stream");
+
 
 module.exports = {
     entry: "./src/index.js",
